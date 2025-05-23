@@ -141,3 +141,4 @@ pubspec.lock
 # Misc
 .DS_Store
 Thumbs.db
+flavor_*.json
