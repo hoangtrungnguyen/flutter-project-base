@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
 
+  intl:
 
   bloc: ^9.0.0
   flutter_bloc: ^9.1.1
@@ -33,10 +34,12 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
+  flutter_localizations:
+    sdk: flutter
+
   freezed: ^3.0.5
 
   build_runner: ^2.4.15
-  flutter_gen_runner: ^5.10.0
 
   bloc_test: ^10.0.0
   mocktail: ^1.0.0
@@ -81,3 +84,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_intl:
+  enabled: true

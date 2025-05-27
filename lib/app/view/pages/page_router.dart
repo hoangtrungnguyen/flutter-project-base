@@ -1,9 +1,9 @@
-import 'package:esupa_store_pos/app/bloc/auth/auth_bloc.dart';
-import 'package:esupa_store_pos/ui/home/home.dart' show HomeScreen;
+import 'package:esupa_store_pos/app/view/bloc/auth/auth_bloc.dart';
+import 'package:esupa_store_pos/features/home/home.dart' show HomePage;
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import 'splash_screen.dart';
+import 'splash_page.dart';
 
 mixin AppRouter {
   GoRouter buildRouter(AuthBloc authBloc) {
@@ -13,13 +13,12 @@ mixin AppRouter {
         GoRoute(
           path: '/splash',
           builder:
-              (BuildContext context, GoRouterState state) =>
-                  const SplashScreen(),
+              (BuildContext context, GoRouterState state) => const SplashPage(),
         ),
         GoRoute(
           path: '/home',
           builder:
-              (BuildContext context, GoRouterState state) => const HomeScreen(),
+              (BuildContext context, GoRouterState state) => const HomePage(),
         ),
       ],
     );

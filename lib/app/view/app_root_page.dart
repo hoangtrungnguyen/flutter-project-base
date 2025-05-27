@@ -1,16 +1,17 @@
-import 'package:esupa_store_pos/app/bloc/auth/auth_bloc.dart';
-import 'package:esupa_store_pos/app/view/router.dart';
+import 'package:esupa_store_pos/app/view/pages/page_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class AppScreen extends StatefulWidget {
-  const AppScreen({super.key});
+import 'bloc/auth/auth_bloc.dart';
+
+class AppRootPage extends StatefulWidget {
+  const AppRootPage({super.key});
 
   @override
-  State<AppScreen> createState() => _AppScreenState();
+  State<AppRootPage> createState() => _AppRootPageState();
 }
 
-class _AppScreenState extends State<AppScreen> with AppRouter {
+class _AppRootPageState extends State<AppRootPage> with AppRouter {
   late final AuthBloc _authBloc;
   late final GoRouter _router;
 

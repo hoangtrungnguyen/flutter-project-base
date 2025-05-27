@@ -1,0 +1,5 @@
+bricks:
+  new_feat:
+    git:
+      url: https://github.com/hoangtrungnguyen/my-brick
+      path: bricks/new_feat

@@ -1,7 +1,6 @@
+import 'package:esupa_store_pos/app/view/app_root_page.dart';
 import 'package:flutter/material.dart';
 
-import 'app/view/app_screen.dart';
-
 void main() {
-  runApp(const AppScreen());
+  runApp(const AppRootPage());
 }

@@ -142,3 +142,6 @@ pubspec.lock
 .DS_Store
 Thumbs.db
 flavor_*.json
+
+.mason/
+mason-lock.json
