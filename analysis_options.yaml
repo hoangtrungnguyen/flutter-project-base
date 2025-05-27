@@ -26,3 +26,15 @@ linter:
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
+
+bloc:
+  rules:
+    avoid_public_fields: true
+    prefer_void_public_cubit_methods: true
+    avoid_public_bloc_methods: true
+    avoid_flutter_imports: true
+
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore

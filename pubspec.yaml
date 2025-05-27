@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
 
 
+  bloc: ^9.0.0
   flutter_bloc: ^9.1.1
   dartx: ^1.2.0
 
@@ -22,15 +23,25 @@ dependencies:
   freezed_annotation: ^3.0.0
   collection: ^1.19.1
 
+  # connectivity
+  connectivity_plus: ^6.1.4
+  internet_connection_checker: ^3.0.1
+  json_annotation: ^4.9.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-  freezed: ^3.0.6
+  freezed: ^3.0.5
 
   build_runner: ^2.4.15
   flutter_gen_runner: ^5.10.0
+
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.0
+  json_serializable: ^6.9.5
+
 
   # Packaging window app
   # flutter_distributor: ^0.5.1
