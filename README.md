@@ -1,4 +1,4 @@
-# esupa_store_pos
+# flutter_app
 
 An POS app
 

@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 import '../../../domain/models/customer.dart';
 
@@ -9,6 +9,6 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final customer = CustomerModel(id: 1, name: 'name');
 
-    return const Text("Splash");
+    return Scaffold(body: Center(child: const Text("Splash")));
   }
 }
