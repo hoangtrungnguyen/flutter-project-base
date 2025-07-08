@@ -1,6 +1,9 @@
-import 'package:esupa_store_pos/app/view/app_root_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/bootstrap.dart';
 
-void main() {
-  runApp(const AppRootPage());
+import 'app/view/app_root_page.dart';
+
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  bootstrap(() => AppRootPage());
 }

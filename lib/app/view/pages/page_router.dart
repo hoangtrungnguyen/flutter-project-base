@@ -1,8 +1,8 @@
-import 'package:esupa_store_pos/app/view/bloc/auth/auth_bloc.dart';
-import 'package:esupa_store_pos/features/home/home.dart' show HomePage;
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../features/home/view/pages/home_page.dart' show HomePage;
+import '../bloc/auth/auth_bloc.dart';
 import 'splash_page.dart';
 
 mixin AppRouter {

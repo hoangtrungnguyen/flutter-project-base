@@ -1,5 +1,6 @@
-import 'package:esupa_store_pos/domain/models/customer.dart';
 import 'package:flutter/widgets.dart';
+
+import '../../../domain/models/customer.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});

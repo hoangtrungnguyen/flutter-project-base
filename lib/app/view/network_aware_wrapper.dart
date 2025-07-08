@@ -1,7 +1,7 @@
-import 'package:esupa_store_pos/utils/network_listener_mixin.dart'; // Import the new mixin
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../utils/network_listener_mixin.dart';
 import 'bloc/network/network_bloc.dart';
 
 class NetworkAwareWrapper extends StatefulWidget {
